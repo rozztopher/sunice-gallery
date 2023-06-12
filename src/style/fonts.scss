@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "SunIceGrotesk";
+    src: url("./fonts/SunIceGrotesk.otf");
+}
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("./fonts/JosefinSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("./fonts/OpenSans-Light.ttf");
+}
+
+* {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: calc((4 - 1) * 1.2vw + 1.66rem);
+    font-family: SunIceGrotesk;
+    letter-spacing: 0.5rem;
+    max-width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: SunIceGrotesk;
+    line-height: 2.625;
+    letter-spacing: 10%;
+}
+
+h3 {
+    font-family: SunIceGrotesk;
+    font-size: 1.563rem;
+    line-height: 2rem;
+    letter-spacing: 15%;
+}
+
+.button-text {
+    font-family: SunIceGrotesk !important;
+    font-size: calc((2.5 - 1) * 1.2vw + 1.66rem);
+    line-height: 3.188rem;
+    text-align: center;
+}
+
+.body-text {
+    font-size: 0.875rem;
+    line-height: 1.66rem;
+}
+
+.small-text {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    opacity: 0.6;
+}
+
+.wrap {
+    word-spacing: 100vw;
+}
+
+.fade-text {
+    opacity: 0.7;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.red-text {
+    color: #EC605F
+}
+
+.black-text {
+    color: black;
+}
+
+.border-text {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.naoo {
+    color: rgb(238, 48, 66);
+}
+
+.naoo-text {
+    font-family: JosefinSans;
+    font-size: 12rem;
+    color: rgb(238, 48, 66);
+    text-transform: lowercase;
+    letter-spacing: -0.5rem;
+}
+
+.squish {
+    font-family: JosefinSans;
+    font-size: 12rem;
+    color: rgb(238, 48, 66);
+    text-transform: lowercase;
+    letter-spacing: -1.2rem;
+}
+
+.naoo-header {
+    font-family: JosefinSans;
+    letter-spacing: -.03rem;
+    font-size: calc((4 - 1) * 1.2vw + 1.5rem);
+    line-height: 2.25;
+}
+
+.naoo-title {
+    font-family: JosefinSans;
+    letter-spacing: -.03rem;
+    font-size: calc((2.8 - 1) * 1.2vw + 1.5rem);
+    line-height: 1.0208
+}
+
+.naoo-subheader {
+    font-family: JosefinSans;
+    letter-spacing: -.03rem;
+    font-size: calc((1.6 - 1) * 1.2vw + 1.5rem);
+}
+
+.naoo-body {
+    font-family: OpenSans;
+    letter-spacing: 0.05rem;
+    font-size: calc((1 - 1) * 1.2vw + 1.66rem);
+    line-height: 1.3;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+@media (max-width: 16384px) and (min-width: 1800px) {
+    h1 {
+        font-size: calc((4.5 - 1) * 1.2vw + 1.66rem);
+    }
+
+    .button-text {
+        font-size: calc((3.5 - 1) * 1.2vw + 1.66rem) !important;
+    }
+
+    .naoo-text {
+        font-size: 20rem;
+    }
+
+    .squish {
+        font-size: 20rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .naoo-text {
+        font-size: 8rem;
+    }
+
+    .squish {
+        font-size: 8rem;
+    }
+}
